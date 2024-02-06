@@ -1,0 +1,24 @@
+{
+  "name": "donotsshopwatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "nodemon --exec ts-node ./src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-notifier": "^10.0.1",
+    "typescript": "^5.3.3",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node-notifier": "^8.0.5",
+    "@types/node": "^20.11.16",
+    "@types/node-fetch": "^2.6.11",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2"
+  }
+}
