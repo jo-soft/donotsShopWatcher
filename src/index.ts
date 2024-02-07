@@ -18,10 +18,9 @@ async function fetchShopContent(): Promise<string> {
     const delayed: boolean = resp.includes('vvk-start verschoben');
 
     if(delayed){
-        NodeNotifier.notify('Please Wait')
         console.log('please wait');
         setTimeout(
-            () => loop(), 1000 * 1
+            () => loop(), 1000 * 15
         );
     }
     else {
